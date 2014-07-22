@@ -23,11 +23,6 @@ scalacOptions ++= Seq(
   "-encoding", "UTF-8"
 )
 
-javacOptions ++= Seq(
-  "-source", "1.7",
-  "-target", "1.7"
-)
-
 // Compile dependencies.
 libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-actor" % "2.3.4"
